@@ -1,0 +1,34 @@
+body {
+    background: #F5F6F5;
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden;
+}
+
+.index {
+    width: 100vw;
+    height: 100vh;
+}
+
+.masthead {
+    color: #FFF;
+    min-height: 30rem;
+    width: 100%;
+    height: 100%;
+    padding-top: 8rem;
+    background: url('/img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.masthead h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 992px) {
+    .mashead h1 {
+        font-size: 5.5rem;
+    }
+}
